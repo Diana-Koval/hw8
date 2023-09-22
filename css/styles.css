@@ -1,0 +1,72 @@
+.text-box :first-child {
+  color: pink;
+}
+#greycol {
+  color: gray;
+}
+.text-box :nth-child(5) p {
+  color: red;
+}
+.text-box :nth-last-child(2) {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+
+/* Exercise 2 */
+
+.list-mon a {
+  color: black;
+}
+.list-tue a {
+  background-color: pink;
+  color: blueviolet;
+}
+.list-wed a {
+  background-color: aqua;
+  color: blue;
+}
+.list-thu a {
+  color: orange;
+}
+.list-fri a {
+  background-color: yellowgreen;
+  color: yellow;
+}
+
+/* + псевдокласи та структурні псевдокласи */
+
+.list-mon a:hover {
+  background-color: aquamarine;
+}
+.list-mon :nth-child(odd) a {
+  font-size: 30px;
+}
+.list-tue a:focus {
+  color: brown;
+}
+.list-tue :nth-child(5) a {
+  font-size: 10px;
+}
+.list-wed a:visited {
+  margin-bottom: none;
+}
+.list-wed li:last-child a {
+  background-color: green;
+}
+.list-thu li :not(a) {
+  color: black;
+}
+.list-thu :first-child a {
+  font-size: 25px;
+}
+.list-fri a:link {
+  font-style: italic;
+}
+.list-fri a:checked {
+  color: blueviolet;
+}
+.list-fri :nth-child(n + 3) a {
+  color: blue;
+}
