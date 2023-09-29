@@ -50,7 +50,7 @@
   font-size: 10px;
 }
 .list-wed a:visited {
-  margin-bottom: none;
+  color: red;
 }
 .list-wed li:last-child a {
   background-color: green;
@@ -64,7 +64,7 @@
 .list-fri a:link {
   font-style: italic;
 }
-.list-fri a:checked {
+.list-fri a:active {
   color: blueviolet;
 }
 .list-fri :nth-child(n + 3) a {
